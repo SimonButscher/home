@@ -1,7 +1,8 @@
-<footer>
+<footer id="bottom">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
+        <!--
         <h4><strong>{{ site.owner }}</strong>
         </h4>
         <p>
@@ -9,22 +10,25 @@
           {{ address.line }}<br>
           {% endfor %}
         </p>
+        -->
         <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
+          <!--<li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>-->
           <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
         </ul>
         <br>
         <ul class="list-inline">
           <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/simon-butscher-05a201176/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Simon_Butscher4/cv?sc_o=mxb_p"><i class="fa fa-xing fa-fw fa-3x"></i></a>
           </li>
+          <!--
           <li>
             <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
           </li>
+          -->
         </ul>
         <hr class="small">
         <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
