@@ -371,6 +371,16 @@ hr.small {
     pointer-events: none;
 }
 
+/* research */
+.bg-primary {
+    color: #fff;
+    background-color: #505050;
+}
+
+.text-primary {
+    color: #505050;
+}
+
 /* Footer */
 
 footer {
