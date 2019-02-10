@@ -371,7 +371,7 @@ hr.small {
     pointer-events: none;
 }
 
-/* research */
+/* bootstrap override */
 .bg-primary {
     color: #fff;
     background-color: #505050;
