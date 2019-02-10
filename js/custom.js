@@ -38,3 +38,9 @@ $(document).ready(function() {
     $('#map_iframe').addClass('scrolloff');
   });
 });
+
+$(function(){
+  $('.carousel').carousel({
+    interval: 10000
+  });
+});
