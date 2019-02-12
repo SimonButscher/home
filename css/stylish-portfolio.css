@@ -261,8 +261,13 @@ hr.small {
 }
 
 .portfolio-item:hover .overlay {
-    opacity: 1;
-    background: rgba(0,0,0,0.6)
+    visibility: visible;    
+    background: rgba(0,0,0,0.6);    
+}
+
+.portfolio-item:focus .overlay-touch {
+    visibility: visible;    
+    background: yellow;    
 }
 
 .overlay, .overlay-touch {
@@ -276,13 +281,10 @@ hr.small {
     height: 100%;
     width: 100%;
     transition: .1s ease;
-    opacity: 0;
+    visibility: hidden;
     background: rgba(0,0,0,0)
 }
 
-.overly-touch {
-    background: yellow
-}
 
 .overlay .content {
     font-size: large;
