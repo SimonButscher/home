@@ -260,14 +260,10 @@ hr.small {
     transform: scale(1.05);
 }
 
-.portfolio-item:hover .overlay {
+.portfolio-item:hover .overlay, 
+.portfolio-item:focus .overlay {
     visibility: visible;    
     background: rgba(0,0,0,0.6);    
-}
-
-.portfolio-item:focus .overlay-touch {
-    visibility: visible;    
-    background: yellow;    
 }
 
 .overlay, .overlay-touch {
