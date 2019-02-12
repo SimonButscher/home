@@ -379,6 +379,23 @@ hr.small {
     background-color: #505050;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #4c80a7;
+    border-color: #4c80a7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #49617d;
+  border-color: #49617d;
+}
+
 .text-primary {
     color: #505050;
 }
