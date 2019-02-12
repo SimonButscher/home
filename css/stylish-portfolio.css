@@ -265,7 +265,7 @@ hr.small {
     background: rgba(0,0,0,0.6)
 }
 
-.overlay {
+.overlay, .overlay-touch {
     color: whitesmoke;
     text-align: center;
     position: absolute;
@@ -278,6 +278,10 @@ hr.small {
     transition: .1s ease;
     opacity: 0;
     background: rgba(0,0,0,0)
+}
+
+.overly-touch {
+    background: yellow
 }
 
 .overlay .content {
@@ -379,6 +383,24 @@ hr.small {
 
 .text-primary {
     color: #505050;
+}
+
+a {
+    color: #4c80a7;
+}
+a:hover,
+a:focus {
+    color: #49617d;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active:focus,
+.btn.active:focus
+{
+    outline-color: #49617d;
 }
 
 /* Footer */
