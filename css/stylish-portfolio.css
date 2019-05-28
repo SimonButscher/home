@@ -423,3 +423,7 @@ a:focus {
 footer {
     padding: 100px 0;
 }
+
+ul {
+    text-align: left;
+  }
